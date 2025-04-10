@@ -35,10 +35,6 @@ Los estudiantes podrán registrarse en el chatbot y asociar sus objetos a un có
 
 Además, el bot contará con un sistema de moderación basado en reportes comunitarios. Si un usuario envía mensajes inapropiados o hace un mal uso de la plataforma, podrá ser eliminado tras recibir múltiples reportes de la comunidad.
 
-_Mantenlo corto, elabora en **Background, Overview y Detailed Design**_
-
-_Añade screenshots / mocks si lo ves necesario_
-
 ## Goals
 - Permitir la notificación de incidentes dentro de la comunidad universitaria (ej., vehículo llanta sin aire, mochila perdida).
 - Ofrecer un registro en el chatbot para que los usuarios asocien objetos a un código QR único.
@@ -53,7 +49,7 @@ _Añade screenshots / mocks si lo ves necesario_
 ## Background
 La pérdida de objetos en el campus es un problema recurrente, y actualmente no existe un medio organizado para que los estudiantes y docentes reporten y recuperen sus pertenencias de manera eficiente.
 
-Además, existen situaciones dentro de la comunidad universitaria donde una notificación temprana podría evitar inconvenientes mayores. Por ejemplo, muchos estudiantes terminan sus clases a altas horas de la noche y pueden encontrarse con problemas como una llanta ponchada o una luz del auto encendida. A esas horas, encontrar ayuda mecánica puede ser complicado, pero si otro estudiante nota el problema, podría notificar al propietario antes de que sea demasiado tarde.
+Además, existen situaciones dentro de la comunidad universitaria donde una notificación temprana podría evitar inconvenientes mayores. Por ejemplo, muchos estudiantes terminan sus clases a altas horas de la noche y pueden encontrarse con problemas como una llanta ponchada o una luz del auto no encendida. A esas horas, encontrar ayuda mecánica puede ser complicado, pero si otro estudiante nota el problema, podría notificar al propietario antes de que sea demasiado tarde.
 
 Dado que Telegram es una plataforma ampliamente utilizada y accesible para la mayoría de los estudiantes y docentes, se presenta como una solución ideal para implementar un bot con estas funcionalidades.
 
