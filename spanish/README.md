@@ -12,15 +12,7 @@ Ultima actualización: 2025-03-31
 - Non-Goals
 - Background
 - Overview
-- Detailed Design
-  - Solucion 1
-    - Frontend
-    - Backend
-  - Solucion 2
-    - Frontend
-    - Backend
-- Consideraciones
-- Métricas
+
 
 ## Links
 - [Un link](#)
@@ -53,40 +45,4 @@ Además, existen situaciones dentro de la comunidad universitaria donde una noti
 
 Dado que Telegram es una plataforma ampliamente utilizada y accesible para la mayoría de los estudiantes y docentes, se presenta como una solución ideal para implementar un bot con estas funcionalidades.
 
-## Overview
-_Overview a alto nivel de tu propuesta_
 
-_Esta sección debería ser entendible por nuevos miembros de tu equipo que no están relacionados al proyecto_
-
-_Pon detalles en la siguiente sección_
-
-## Detailed Design
-_Usa diagramas donde veas necesario_
-
-_Herramientas como [Excalidraw](https://excalidraw.com) son buenos recursos para esto_
-
-_Cubre los cambios principales:_
-
- _- Cuales son las nuevas funciones que vas a escribir?_
- _- Porque necesitas nuevos componentes?_
- _- Hay código que puede ser reusable?_
-
-_No elabores minuciosamente la implementación._
-
-## Solution 1
-### Frontend
-_Frontend…_
-### Backend
-_Backend…_
-
-## Solution 2
-### Frontend
-_Frontend…_
-### Backend
-_Backend…_
-
-## Consideraciones
-_Preocupaciones / trade-offs / tech debt_
-
-## Métricas
-_Que información necesitas para validar antes de lanzar este feature?_
