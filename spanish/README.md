@@ -14,9 +14,6 @@ Ultima actualización: 2025-03-31
 - Overview
 
 
-## Links
-- [Un link](#)
-- [Otro link](#)
 
 ## Objetivo
 Estamos desarrollando un chatbot de Telegram que utiliza códigos QR como identificadores únicos de objetos pertenecientes a estudiantes y docentes. El objetivo principal es facilitar la recuperación de objetos perdidos y permitir la notificación de incidentes dentro de la comunidad universitaria, contribuyendo a un entorno más seguro y organizado.
