@@ -14,7 +14,7 @@ Desarrollar un chatbot en Telegram que utilice **códigos QR como identificadore
 
 ---
 
-## 🧩 Funcionalidades Clave (Goals)
+##  Funcionalidades Clave (Goals)
 
 -  Registro de usuarios y asociación de objetos personales a **códigos QR únicos**.
 -  Escaneo de códigos QR para **reportar objetos extraviados o encontrados**.
@@ -25,7 +25,7 @@ Desarrollar un chatbot en Telegram que utilice **códigos QR como identificadore
 
 ---
 
-## 🚫 Alcances No Incluidos (Non-Goals)
+##  Alcances No Incluidos (Non-Goals)
 
 - No se busca reemplazar los sistemas institucionales de vigilancia o seguridad.
 - No se gestiona información financiera ni se contempla procesamiento de pagos.
