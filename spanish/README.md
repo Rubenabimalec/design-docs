@@ -1,45 +1,54 @@
-# Design Doc: Chatbot de Telegram para Manejo de QR Secure
-Link: [https://github.com/netrix4/CarLogBot](#)
 
-Author(s): Mario, Ruben
+# CarLogBot – Chatbot de Telegram para Manejo de QR Secure
 
-Status: [In Review]
+**Repositorio:** [CarLogBot en GitHub](https://github.com/netrix4/CarLogBot)  
+**Autores:** Mario, Rubén  
+**Estado:** 🟡 *In Review*  
+**Última actualización:** 2025-03-31
 
-Ultima actualización: 2025-03-31
-
-## Contenido
-- Goals
-- Non-Goals
-- Background
-- Overview
-
-
+---
 
 ## Objetivo
-Estamos desarrollando un chatbot de Telegram que utiliza códigos QR como identificadores únicos de objetos pertenecientes a estudiantes y docentes. El objetivo principal es facilitar la recuperación de objetos perdidos y permitir la notificación de incidentes dentro de la comunidad universitaria, contribuyendo a un entorno más seguro y organizado.
 
-Por ejemplo, en caso de que un vehículo esté averiado, cualquier miembro de la comunidad podrá reportarlo a través del bot, permitiendo que el propietario tome precauciones de manera rápida.
+Desarrollar un chatbot en Telegram que utilice **códigos QR como identificadores únicos** para objetos pertenecientes a estudiantes y docentes. Su propósito es facilitar la recuperación de objetos perdidos y permitir la notificación de incidentes dentro del campus, promoviendo un entorno más seguro, colaborativo y organizado.
 
-Los estudiantes podrán registrarse en el chatbot y asociar sus objetos a un código QR único. Una opción será pegar stickers con el QR en un lugar visible, de modo que otros estudiantes puedan escanearlo y contactar al propietario en caso de extravío.
+---
 
-Además, el bot contará con un sistema de moderación basado en reportes comunitarios. Si un usuario envía mensajes inapropiados o hace un mal uso de la plataforma, podrá ser eliminado tras recibir múltiples reportes de la comunidad.
+## 🧩 Funcionalidades Clave (Goals)
 
-## Goals
-- Permitir la notificación de incidentes dentro de la comunidad universitaria (ej., vehículo llanta sin aire, mochila perdida).
-- Ofrecer un registro en el chatbot para que los usuarios asocien objetos a un código QR único.
-- Posibilitar la comunicación entre usuarios a través del escaneo de códigos QR para reportar objetos encontrados.
-- Implementar una función que permita a los usuarios listar los objetos asociados a su cuenta.
-- reportes comunitarios para moderar y eliminar usuarios que hagan mal uso de la plataforma.
+-  Registro de usuarios y asociación de objetos personales a **códigos QR únicos**.
+-  Escaneo de códigos QR para **reportar objetos extraviados o encontrados**.
+-  Notificación de **incidentes comunitarios** como llantas ponchadas, mochilas olvidadas, etc.
+-  Listado de objetos asociados a una cuenta para fácil gestión.
+-  **Moderación comunitaria**: reporte de usuarios por mal uso con mecanismo de sanción.
+-  Comunicación entre usuarios mediante el bot tras escanear un QR.
 
-## Non-Goals
-- No se busca reemplazar sistemas de seguridad o vigilancia de la institución.
-- No se pretende manejar pagos o información financiera en la plataforma.
+---
 
-## Background
-La pérdida de objetos en el campus es un problema recurrente, y actualmente no existe un medio organizado para que los estudiantes y docentes reporten y recuperen sus pertenencias de manera eficiente.
+## 🚫 Alcances No Incluidos (Non-Goals)
 
-Además, existen situaciones dentro de la comunidad universitaria donde una notificación temprana podría evitar inconvenientes mayores. Por ejemplo, muchos estudiantes terminan sus clases a altas horas de la noche y pueden encontrarse con problemas como una llanta ponchada o una luz del auto no encendida. A esas horas, encontrar ayuda mecánica puede ser complicado, pero si otro estudiante nota el problema, podría notificar al propietario antes de que sea demasiado tarde.
+- No se busca reemplazar los sistemas institucionales de vigilancia o seguridad.
+- No se gestiona información financiera ni se contempla procesamiento de pagos.
 
-Dado que Telegram es una plataforma ampliamente utilizada y accesible para la mayoría de los estudiantes y docentes, se presenta como una solución ideal para implementar un bot con estas funcionalidades.
+---
 
+##  Contexto del Problema
+
+En entornos universitarios, la pérdida de objetos personales y la falta de canales para reportar incidentes menores representan un problema común. Este proyecto surge para llenar ese vacío utilizando una herramienta accesible como Telegram, ampliamente adoptada entre estudiantes y docentes.
+
+### Ejemplos de uso:
+- Un estudiante encuentra una mochila con un QR. Escanea el código y contacta al propietario a través del bot.
+- Un auto tiene una llanta ponchada en el estacionamiento. Otro estudiante lo reporta desde el bot para alertar al dueño.
+
+---
+
+##  Tecnologías Utilizadas
+
+- **Telegram Bot API** – Para gestionar interacciones con usuarios.
+- **Python** – Lógica backend del chatbot.
+- **PostgreSQL** – Base de datos relacional para gestionar usuarios, objetos y reportes.
+- **QR Code Libraries** – Generación e interpretación de códigos QR.
+- **Testing** – Pruebas de integridad de base de datos y validación de operaciones.
+
+---
 
